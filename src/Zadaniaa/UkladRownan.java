@@ -46,7 +46,7 @@ public class UkladRownan
             float rozwiazaniey = wyznaczniky / wyznacznik;
             System.out.println("Rozwiazanie: x jest równe: " + rozwiazaniex + " a Y jest rowny :" + rozwiazaniey);
         }
-        else if (wyznacznik==0 && (wyznacznikx!=0 || wyznaczniky!=0))
+        else if  (wyznacznikx!=0 || wyznaczniky!=0)
         {
             System.out.println("Ukald jest sprzeczny!");
         }
