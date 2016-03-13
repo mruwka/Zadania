@@ -33,6 +33,8 @@ public class Menu {
                     la.wyliczLiczbe();
                     break;
                 case 3:
+                    Palindrom p = new Palindrom();
+                    p.getRange();
                     break;
                 case 4:
                     break;
