@@ -20,7 +20,7 @@ public class Menu {
 
             System.out.println("Tu beda wyswietlone zadania");
             Scanner scan = new Scanner(System.in);
-            System.out.println("Podaj numer zadania ");
+            System.out.println("Podaj numer zadania: ");
             selectedCase = scan.nextInt();
 
             switch (selectedCase) {
@@ -37,6 +37,8 @@ public class Menu {
                     p.getRange();
                     break;
                 case 4:
+                    SitoEratostenesa se = new SitoEratostenesa();
+                    se.getRange();
                     break;
                 case 5:
                     break;
