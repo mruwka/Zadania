@@ -41,6 +41,9 @@ public class Menu {
                     se.getRange();
                     break;
                 case 5:
+                    Szyfrowanie sz = new Szyfrowanie();
+                    sz.cypherData();
+
                     break;
                 case 6:
                     break;
