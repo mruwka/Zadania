@@ -43,11 +43,6 @@ public class Menu {
                 case 5:
                     Zadanie sz = new Szyfrowanie();
                     sz.startTask();
-
-                    break;
-                case 6:
-                    break;
-                case 7:
                     break;
                 case 0:
                     repeat = false;

@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Piotrek on 2016-03-17.
  */
-public class Szyfrowanie {
+public class Szyfrowanie implements Zadanie{
 
     private String readWord(){
         Scanner sc1 = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class Szyfrowanie {
         return number;
     }
 
-    public void cypherData(){
+    public void startTask(){
 
         // zczytujemy slowo i numer z wykonanych metod
         String w = readWord();
