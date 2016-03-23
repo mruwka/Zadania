@@ -18,7 +18,7 @@ public class Menu {
 
         do {
 
-            System.out.println("Tu beda wyswietlone zadania");
+            System.out.println(" Zadania: \n\n 1: Układ Równań \n 2: LiczbaArmstronga \n 3: Palindrom \n 4: Sito Eratostenesa \n 5: Szyfrowanie \n 0: Koniec \n");
             Scanner scan = new Scanner(System.in);
             System.out.println("Podaj numer zadania: ");
             selectedCase = scan.nextInt();

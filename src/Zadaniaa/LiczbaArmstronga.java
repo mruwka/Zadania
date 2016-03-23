@@ -24,7 +24,7 @@ public class LiczbaArmstronga implements Zadanie{
                 c = c + iCharPotega;
             }
             if (c == i) System.out.println(c);
-            //test
+
         }
 
     }

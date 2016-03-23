@@ -4,7 +4,7 @@ import java.util.*;
 
 public class UkladRownan implements Zadanie
 {
-    private float wyznacznik, wyznaczinkx, wyznaczniky;
+
     private float liczWyznacznik(int w1, int w2, int w3, int w4)
     {
         return (w1*w2-w3*w4);
@@ -28,15 +28,15 @@ public class UkladRownan implements Zadanie
         int f = scan.nextInt();
         System.out.println("Podales uklad rownan: "+a+"x"+b+"y"+c+"\n"+d+"x"+e+"y"+f);
 
-        float wyznacznik = this.wyznacznik;
+        float wyznacznik;
         wyznacznik = liczWyznacznik(a,e,b,d);
         System.out.println("Wyznacznik jest równy: " + wyznacznik);
 
-        float wyznacznikx = this.wyznaczinkx;
+        float wyznacznikx;
         wyznacznikx = liczWyznacznik(c,e,b,f);
         System.out.println("Wyznacznik X to: " + wyznacznikx);
 
-        float wyznaczniky = this.wyznaczniky;
+        float wyznaczniky;
         wyznaczniky = liczWyznacznik(a,f,c,d);
         System.out.println("Wyznacznik Y to: " + wyznaczniky);
 
