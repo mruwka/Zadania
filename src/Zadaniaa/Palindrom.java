@@ -2,9 +2,9 @@ package Zadaniaa;
 
 import java.util.Scanner;
 
-public class Palindrom {
+public class Palindrom implements Zadanie{
 
-    public void getRange() {
+    public void startTask() {
         System.out.println("Podaj przedzial Palindrom - od 0 do 196");
         Scanner scan = new Scanner(System.in);
         int r = scan.nextInt();

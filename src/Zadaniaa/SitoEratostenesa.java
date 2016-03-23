@@ -6,9 +6,9 @@ import java.util.Scanner;
 /**
  * Created by PL036604 on 15/03/2016.
  */
-public class SitoEratostenesa {
+public class SitoEratostenesa implements Zadanie{
 
-    public void getRange() {
+    public void startTask() {
 
 
         System.out.println("Podaj przedzial Sita: ");

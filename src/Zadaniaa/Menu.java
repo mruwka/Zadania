@@ -25,24 +25,24 @@ public class Menu {
 
             switch (selectedCase) {
                 case 1:
-                    UkladRownan ur = new UkladRownan();
-                    ur.rozwiazRownanie();
+                    Zadanie ur = new UkladRownan();
+                    ur.startTask();
                     break;
                 case 2:
-                    LiczbaArmstronga la = new LiczbaArmstronga();
-                    la.wyliczLiczbe();
+                    Zadanie la = new LiczbaArmstronga();
+                    la.startTask();
                     break;
                 case 3:
-                    Palindrom p = new Palindrom();
-                    p.getRange();
+                    Zadanie p = new Palindrom();
+                    p.startTask();
                     break;
                 case 4:
-                    SitoEratostenesa se = new SitoEratostenesa();
-                    se.getRange();
+                    Zadanie se = new SitoEratostenesa();
+                    se.startTask();
                     break;
                 case 5:
-                    Szyfrowanie sz = new Szyfrowanie();
-                    sz.cypherData();
+                    Zadanie sz = new Szyfrowanie();
+                    sz.startTask();
 
                     break;
                 case 6:

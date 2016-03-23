@@ -3,9 +3,9 @@ import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
 
 import java.util.AbstractList;
 
-public class LiczbaArmstronga {
+public class LiczbaArmstronga implements Zadanie{
 
-    public void wyliczLiczbe() {
+    public void startTask() {
         System.out.println("Liczby armstroga ");
 
         int n = 2000;
