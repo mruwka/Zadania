@@ -44,8 +44,7 @@ public class SortowanieBabelkowe implements Zadanie {
                     temp = firstTable;
                     firstTable = secondTable;
                     secondTable = temp;
-                    // System.out.print(temp);
-                    //i++;
+
                 }
                 list.set(i, firstTable);
                 list.set(i + 1, secondTable);
