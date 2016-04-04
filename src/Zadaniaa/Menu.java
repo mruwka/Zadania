@@ -18,7 +18,7 @@ public class Menu {
 
         do {
 
-            System.out.println(" Zadania: \n\n 1: Układ Równań \n 2: LiczbaArmstronga \n 3: Palindrom \n 4: Sito Eratostenesa \n 5: Szyfrowanie \n 0: Koniec \n");
+            System.out.println(" \n\n Zadania: \n\n 1: Układ Równań \n 2: LiczbaArmstronga \n 3: Palindrom \n 4: Sito Eratostenesa \n 5: Szyfrowanie \n 6: SortowanieBabelkowe \n 0: Koniec \n");
             Scanner scan = new Scanner(System.in);
             System.out.println("Podaj numer zadania: ");
             selectedCase = scan.nextInt();
@@ -43,6 +43,10 @@ public class Menu {
                 case 5:
                     Zadanie sz = new Szyfrowanie();
                     sz.startTask();
+                    break;
+                case 6:
+                    Zadanie sb = new SortowanieBabelkowe();
+                    sb.startTask();
                     break;
                 case 0:
                     repeat = false;
